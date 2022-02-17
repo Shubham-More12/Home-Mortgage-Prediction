@@ -14,7 +14,7 @@
      <h1> Predict Home Mortgage </h1>
      
      <!-- Main Input For Receiving Query to our ML -->
-     <form action = "{{url_for ('predict)}}"method = "post">
+     <form action = "{{url_for ('predict')}}"method = "post">
           <input type = "text" name ='rent_mean' placeholder='Rent_Mean' required = 'required' />
           <input type = "text" name ='rent_median' placeholder='Rent_Median' required = 'required' />
           <input type = "text" name ='rent_stdev' placeholder='Rent_Stdev' required = 'required' />
